@@ -1,14 +1,11 @@
-import javafx.application.Application;
-import javafx.stage.Stage;
 
-public class AnChat extends Application{
+public class AnChat {
 
 	public static void main(String[] args){
-		Application.launch(args);
+		AnChat chat = new AnChat();
 	}
 	
-	@Override
-	public void start(Stage arg0) throws Exception {
+	public AnChat(){
 		
 	}
 
